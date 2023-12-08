@@ -69,7 +69,7 @@ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server local
 kafka-console-producer.sh --bootstrap-server localhost:9092 --topic new_topic --property "parse.key=true" --property "key.separator=:"
 ```
 
-## Start Consumer - from befinning
+## Start Consumer - from beginning
 
 ```bash
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
