@@ -1,5 +1,8 @@
 # Kafka Commands
 
+![kafka](https://github.com/aswinayyolath/Kafka/assets/55191821/6f61a2eb-afb6-4e08-ab00-60bead4a75e7)
+
+
 ## Start Zookeeper Server
 
 ```bash
