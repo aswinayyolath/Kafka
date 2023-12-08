@@ -142,8 +142,8 @@ ka.clients.producer.RoundRobinPartitioner
 kafka-console-consumer.sh --consumer.config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --topic my_first_topic --group my_first_group
 ```
 
---from-beginning is an argument that is only helpful when there is never been a consumer offset has been comitted as part of the group
-that is --from-beginning don't work if used with consumer group if the message is already read by the consumer.
+`--from-beginning` is an argument that is only helpful when there is never been a consumer offset has been comitted as part of the group
+that is `--from-beginning` don't work if used with consumer group if the message is already read by the consumer.
 
 ## List Consumer group
 
