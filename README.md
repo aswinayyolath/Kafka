@@ -110,7 +110,7 @@ bootstrap.servers=localhost:9092
 
 ## Important Notes
 
-- Once the message is consumed by a Consumer group then even if we use `--from-beginning` flag on console consumer it won't print the already consumer messages
+- Once the message is consumed by a Consumer group then even if we use `--from-beginning` flag on console consumer it won't print the already consumed messages
 
 ```bash
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092 --consumer.config config/consumer.properties
